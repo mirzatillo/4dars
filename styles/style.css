@@ -3,3 +3,311 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Ubuntu';
+}
+
+.container{
+    max-width: 1368px;
+    width: 100% ;
+    margin: 0 auto;
+
+}
+
+.hero__container{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.Отзывы .link{
+    font-weight: 400;
+    font-size: 34px;
+    color:  #000000;
+    margin-bottom: 35px;
+}
+
+.homepage{
+    background-color: #F0F4F8;
+    border-radius:  10px; ;
+    padding: 26px 30px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.homepage .page{
+    font-size: 14px;
+    font-weight: 400;
+    color: #79A6C3;
+    margin-bottom: 10px;
+}
+
+.sub{
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.deskription{
+    font-size: 14px;
+    line-height: 19.6px;
+    color: #6E9BB8;
+}
+
+.image{
+    display: flex;
+}
+
+.homepagee{
+    margin-top: 78px;
+    background-color: #F0F4F8;
+    border-radius:  10px; ;
+    padding: 26px 30px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.homepagee .page{
+    font-size: 14px;
+    font-weight: 400;
+    color: #79A6C3;
+    margin-bottom: 10px;
+}
+
+
+span{
+  color: blue;
+}
+
+.header__container{
+    margin-top: 88px;
+    display: flex;
+    align-items: center;
+    background-color: #F0F4F8;
+    padding: 59px 62px ;
+    border-radius: 120px 6px 120px 6px;
+    margin-bottom: 90px;
+}
+
+.клиентов{
+    margin-right: 15px;
+}
+
+.link1{
+    font-size: 34px;
+    margin-bottom: 35px;
+}
+
+.title{
+    margin-top: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 1px;
+}
+
+.img1{
+    margin-top: 90px;
+}
+
+.img2{
+    margin-top: 70px;
+}
+
+.profesion{
+    font-weight: 400;
+    font-size: 16px;
+    color: #6E9BB8;
+    margin-top: 1px;
+}
+
+.Онлайн__container{
+   margin-bottom: 113px;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 28px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #6E9BB8;
+    transition: all 0.5s linear;
+}
+
+a:hover{
+    color: #000000;
+    /* border-bottom: 2px solid #0082F4;
+    padding-bottom: 10px; */
+}
+
+hr{
+    margin-top: 11px;
+    margin-bottom: 37px;
+}
+
+.linkk{
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 9px;
+}
+
+.Контакты .name1{
+    display: flex;
+    align-items: center;
+    background-color: #F0F4F8;
+    border-radius: 10px;
+    margin-bottom: 6px ;
+    padding: 8px 13px;
+}
+
+.name2{
+    font-size: 16px;
+    color: #000;
+    margin-left: 11px;
+}
+
+
+.чат__container{
+    display: flex;
+    align-items: center;
+    gap: 230px;
+    background-color: #F0F4F8;
+    border-radius: 64px 6px 64px 6px;
+    padding: 82px 62px;
+    position: relative;
+}
+
+.background{
+    width: 360px;
+    position: absolute;
+    z-index: 1 ;
+    top: 70px;
+    right: 140px;
+}
+
+.man{
+    width: 300px;
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    bottom: 90px;
+}
+
+.user{
+    font-weight: 700;
+    font-size: 34px;
+    color: #000;
+}
+
+.user-name{
+    font-weight: 700;
+    font-size: 34px;
+    color:#0000DE;
+    margin-bottom: 17px;
+}
+
+.profession{
+    font-size: 16px;
+    color: #6E9BB8;
+    margin-bottom: 33px;
+}
+
+.clickk a{
+    background-color: #0000DE;
+    padding: 23px 15px 23px 15px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 28px 0px 28px 0px;
+    margin-right: 15px;
+    transition: all 0.5s linear;
+}
+
+a:hover{
+    color: #06068b;
+}
+
+.clicck a{
+    background-color: #ffffff;
+    padding: 23px 15px 23px 15px;
+    text-decoration: none;
+    color: #0000DE;
+    border-radius: 28px 0px 28px 0px;
+    margin-right: 15px;
+    transition: all 0.5s linear;
+}
+
+.clicck a:hover{
+    color: #b19ae6;
+}
+
+.end__container{
+
+}
+
+.end__container{
+    display: flex;
+    align-items: center;
+    margin-top: 94px;
+    gap: 15px;
+}
+
+.end1{
+    background-color: #F0F4F8;
+    border-radius: 10px;
+    padding: 26px 30px;
+}
+
+.namee{
+    position: relative;
+    top: -80px;
+    font-size: 34px;
+    color: #000000;
+}
+
+.ee{
+    margin-top: -60px;
+    margin-left: 300px;
+}
+
+.e{
+    margin-top: -60px;
+    margin-left: 190px;
+}
+
+.en1{
+    align-items: center;
+    font-size: 14px;
+    color: #79A6C3;
+    margin-bottom: 10px;
+}
+
+.enn{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24.2px;
+    margin-bottom: 28px;
+}
+
+.svg{
+    display: flex;
+    align-items: center;
+}
+
+.enn{
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.en{
+    line-height: 19.2px;
+    font-size: 16px;
+    color: #0000DE;
+    margin-bottom: 33px;
+}
